@@ -218,16 +218,16 @@ custom_svg
 <summary></summary>
 proceso
   digraph proceso {
-    rankdir=LR
-    bgcolor="transparent"
-    ratio=compress
-    size=8
+    rankdir=LR;
+    bgcolor="transparent";
+    ratio=compress;
+    size=8;
     node 
     [
-      margin=0.2 fontcolor=blue width=0.5 shape=box
-      style="filled"
-      fillcolor="white"
-    ]
+      margin=0.2 fontcolor=blue width=0.5 shape=box;
+      style="filled";
+      fillcolor="white";
+    ];
     "Raw Data" -> "Raw Storage" -> Process -> "Clean Storage" -> "Query" -> Insight;
   }
 proceso
